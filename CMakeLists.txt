@@ -35,6 +35,9 @@ include(ProjectSettings)
 # ---------------------------------------------------------------------------
 add_library(expression_core STATIC
     src/Version.cpp
+    src/errors/Errors.cpp
+    src/lexer/Token.cpp
+    src/lexer/Lexer.cpp
 )
 add_library(expr::core ALIAS expression_core)
 
