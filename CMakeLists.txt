@@ -45,6 +45,7 @@ add_library(expression_core STATIC
     src/parser/Parser.cpp
     src/evaluator/Environment.cpp
     src/evaluator/Evaluator.cpp
+    src/Engine.cpp
 )
 add_library(expr::core ALIAS expression_core)
 

@@ -25,6 +25,7 @@ add_executable(expression_tests
     test_parser.cpp
     test_ast.cpp
     test_evaluator.cpp
+    test_engine.cpp
 )
 
 target_link_libraries(expression_tests PRIVATE expr::core GTest::gtest_main)
