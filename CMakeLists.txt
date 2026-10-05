@@ -40,6 +40,7 @@ add_library(expression_core STATIC
     src/lexer/Lexer.cpp
     src/ast/Operators.cpp
     src/ast/ASTNode.cpp
+    src/ast/ASTPrinter.cpp
     src/parser/OperatorTable.cpp
     src/parser/Parser.cpp
 )

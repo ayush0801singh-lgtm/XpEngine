@@ -17,6 +17,8 @@ class ASTNode;
 /// the whole tree automatically - no manual delete anywhere.
 using ASTNodePtr = std::unique_ptr<ASTNode>;
 
+class ASTVisitor;
+
 /// Abstract base of all AST nodes.
 ///
 /// Nodes are immutable after construction: all accessors are const and there
@@ -36,6 +38,9 @@ public:
     /// node came from parsed text. Used to locate evaluation errors.
     std::optional<std::size_t> position() const noexcept { return position_; }
 
+    /// Double-dispatch for the Visitor pattern.
+    virtual void accept(ASTVisitor& visitor) const = 0;
+
 protected:
     explicit ASTNode(std::optional<std::size_t> position) noexcept
         : position_(position)
@@ -53,6 +58,7 @@ public:
                         std::optional<std::size_t> position = std::nullopt) noexcept;
 
     double value() const noexcept { return value_; }
+    void accept(ASTVisitor& visitor) const override;
 
 private:
     double value_;
@@ -65,6 +71,7 @@ public:
                           std::optional<std::size_t> position = std::nullopt);
 
     const std::string& name() const noexcept { return name_; }
+    void accept(ASTVisitor& visitor) const override;
 
 private:
     std::string name_;
@@ -80,6 +87,7 @@ public:
 
     UnaryOperator op() const noexcept { return op_; }
     const ASTNode& operand() const noexcept { return *operand_; }
+    void accept(ASTVisitor& visitor) const override;
 
 private:
     UnaryOperator op_;
@@ -98,6 +106,7 @@ public:
     BinaryOperator op() const noexcept { return op_; }
     const ASTNode& left() const noexcept { return *left_; }
     const ASTNode& right() const noexcept { return *right_; }
+    void accept(ASTVisitor& visitor) const override;
 
 private:
     BinaryOperator op_;
@@ -122,6 +131,8 @@ public:
     /// `const ASTNode&` is what actually keeps the tree read-only.
     /// Precondition: index < argumentCount() (checked; throws std::out_of_range).
     const ASTNode& argument(std::size_t index) const { return *arguments_.at(index); }
+    
+    void accept(ASTVisitor& visitor) const override;
 
 private:
     std::string name_;

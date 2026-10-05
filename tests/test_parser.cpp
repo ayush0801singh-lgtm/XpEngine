@@ -7,13 +7,13 @@
 //   "-x"         ->  (- x)          a unary operator has one child
 //   "max(a, b)"  ->  (max a b)
 
+#include "expression/ast/ASTPrinter.hpp"
 #include "expression/errors/Errors.hpp"
 #include "expression/lexer/Lexer.hpp"
 #include "expression/parser/Parser.hpp"
 
 #include <gtest/gtest.h>
 
-#include <sstream>
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -22,35 +22,9 @@ namespace {
 
 using namespace expr;
 
-// Test-only printer based on dynamic_cast. (Phase 4 replaces this with a
-// visitor-based printer that lives in the library.)
-std::string toSExpr(const ASTNode& node)
-{
-    std::ostringstream out;
-    if (const auto* number = dynamic_cast<const NumberNode*>(&node)) {
-        out << number->value();
-    } else if (const auto* variable = dynamic_cast<const VariableNode*>(&node)) {
-        out << variable->name();
-    } else if (const auto* unary = dynamic_cast<const UnaryOpNode*>(&node)) {
-        out << '(' << unary->op() << ' ' << toSExpr(unary->operand()) << ')';
-    } else if (const auto* binary = dynamic_cast<const BinaryOpNode*>(&node)) {
-        out << '(' << binary->op() << ' ' << toSExpr(binary->left()) << ' '
-            << toSExpr(binary->right()) << ')';
-    } else if (const auto* call = dynamic_cast<const FunctionCallNode*>(&node)) {
-        out << '(' << call->name();
-        for (std::size_t i = 0; i < call->argumentCount(); ++i) {
-            out << ' ' << toSExpr(call->argument(i));
-        }
-        out << ')';
-    } else {
-        out << "<unknown node>";
-    }
-    return out.str();
-}
-
 std::string parsed(const std::string& source)
 {
-    return toSExpr(*parse(source));
+    return formatSExpression(*parse(source));
 }
 
 void expectParseError(const std::string& source,
@@ -243,7 +217,7 @@ TEST(Parser, NodesRecordTokenPositions)
 TEST(Parser, ParseFromTokenVector)
 {
     const auto root = parse(tokenize("1 + 2"));
-    EXPECT_EQ(toSExpr(*root), "(+ 1 2)");
+    EXPECT_EQ(formatSExpression(*root), "(+ 1 2)");
 }
 
 TEST(Parser, TokenVectorWithoutEndIsRejected)

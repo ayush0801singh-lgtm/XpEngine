@@ -1,4 +1,5 @@
 #include "expression/ast/ASTNode.hpp"
+#include "expression/ast/ASTVisitor.hpp"
 
 #include <stdexcept>
 #include <utility>
@@ -23,10 +24,20 @@ NumberNode::NumberNode(double value, std::optional<std::size_t> position) noexce
 {
 }
 
+void NumberNode::accept(ASTVisitor& visitor) const
+{
+    visitor.visit(*this);
+}
+
 VariableNode::VariableNode(std::string name, std::optional<std::size_t> position)
     : ASTNode(position)
     , name_(std::move(name))
 {
+}
+
+void VariableNode::accept(ASTVisitor& visitor) const
+{
+    visitor.visit(*this);
 }
 
 UnaryOpNode::UnaryOpNode(UnaryOperator op,
@@ -38,6 +49,11 @@ UnaryOpNode::UnaryOpNode(UnaryOperator op,
 {
 }
 
+void UnaryOpNode::accept(ASTVisitor& visitor) const
+{
+    visitor.visit(*this);
+}
+
 BinaryOpNode::BinaryOpNode(BinaryOperator op,
                            ASTNodePtr left,
                            ASTNodePtr right,
@@ -47,6 +63,11 @@ BinaryOpNode::BinaryOpNode(BinaryOperator op,
     , left_(requireNonNull(std::move(left), "left operand"))
     , right_(requireNonNull(std::move(right), "right operand"))
 {
+}
+
+void BinaryOpNode::accept(ASTVisitor& visitor) const
+{
+    visitor.visit(*this);
 }
 
 FunctionCallNode::FunctionCallNode(std::string name,
@@ -61,6 +82,11 @@ FunctionCallNode::FunctionCallNode(std::string name,
             throw std::invalid_argument("AST node requires non-null function arguments");
         }
     }
+}
+
+void FunctionCallNode::accept(ASTVisitor& visitor) const
+{
+    visitor.visit(*this);
 }
 
 } // namespace expr
