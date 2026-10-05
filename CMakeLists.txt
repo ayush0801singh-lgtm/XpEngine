@@ -43,6 +43,8 @@ add_library(expression_core STATIC
     src/ast/ASTPrinter.cpp
     src/parser/OperatorTable.cpp
     src/parser/Parser.cpp
+    src/evaluator/Environment.cpp
+    src/evaluator/Evaluator.cpp
 )
 add_library(expr::core ALIAS expression_core)
 

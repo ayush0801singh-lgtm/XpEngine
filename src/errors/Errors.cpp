@@ -1,4 +1,4 @@
-#include "expression/errors/Errors.hpp"
+#include "expression/evaluator/EvaluationError.hpp"
 
 namespace expr {
 
@@ -36,6 +36,12 @@ LexError::LexError(std::string_view detail, std::size_t position)
 
 ParseError::ParseError(std::string_view detail, std::size_t position)
     : ExpressionError("Parse", detail, position)
+{
+}
+
+EvaluationError::EvaluationError(std::string_view detail,
+                                 std::optional<std::size_t> position)
+    : ExpressionError("Evaluation", detail, position)
 {
 }
 
