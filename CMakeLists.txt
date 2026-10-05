@@ -38,6 +38,10 @@ add_library(expression_core STATIC
     src/errors/Errors.cpp
     src/lexer/Token.cpp
     src/lexer/Lexer.cpp
+    src/ast/Operators.cpp
+    src/ast/ASTNode.cpp
+    src/parser/OperatorTable.cpp
+    src/parser/Parser.cpp
 )
 add_library(expr::core ALIAS expression_core)
 

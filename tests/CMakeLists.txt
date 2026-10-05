@@ -22,6 +22,7 @@ endif()
 add_executable(expression_tests
     test_smoke.cpp
     test_lexer.cpp
+    test_parser.cpp
 )
 
 target_link_libraries(expression_tests PRIVATE expr::core GTest::gtest_main)

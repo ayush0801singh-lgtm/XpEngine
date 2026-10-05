@@ -34,4 +34,9 @@ LexError::LexError(std::string_view detail, std::size_t position)
 {
 }
 
+ParseError::ParseError(std::string_view detail, std::size_t position)
+    : ExpressionError("Parse", detail, position)
+{
+}
+
 } // namespace expr

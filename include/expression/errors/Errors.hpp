@@ -43,4 +43,11 @@ public:
     LexError(std::string_view detail, std::size_t position);
 };
 
+/// Raised by the parser when the token sequence is not a valid expression
+/// (missing operands, mismatched parentheses, misplaced commas, ...).
+class ParseError : public ExpressionError {
+public:
+    ParseError(std::string_view detail, std::size_t position);
+};
+
 } // namespace expr
