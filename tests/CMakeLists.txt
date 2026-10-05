@@ -37,3 +37,14 @@ expr_configure_executable(expression_tests)
 # Register every TEST() with CTest individually so `ctest` reports per-test.
 include(GoogleTest)
 gtest_discover_tests(expression_tests DISCOVERY_MODE PRE_TEST)
+
+# Add end-to-end integration tests using Python
+find_package(Python3 COMPONENTS Interpreter)
+if(Python3_FOUND)
+    add_test(NAME e2e_tests
+             COMMAND Python3::Interpreter
+             "${CMAKE_CURRENT_SOURCE_DIR}/run_e2e_tests.py"
+             "$<TARGET_FILE:expression_engine>")
+else()
+    message(WARNING "Python3 not found; skipping E2E tests")
+endif()

@@ -18,7 +18,7 @@ void printUsage(std::string_view programName)
               << "  " << programName << " --help           Show this help message\n";
 }
 
-void printResult(const expr::Result& result, std::string_view source)
+bool printResult(const expr::Result& result, std::string_view source)
 {
     if (result.hasError()) {
         const auto& error = result.error();
@@ -28,8 +28,10 @@ void printResult(const expr::Result& result, std::string_view source)
             std::cerr << source << '\n';
             std::cerr << std::string(pos, ' ') << "^\n";
         }
+        return false;
     } else {
         std::cout << result.value() << '\n';
+        return true;
     }
 }
 
@@ -81,8 +83,8 @@ int main(int argc, char* argv[])
         }
         
         expr::Engine engine;
-        printResult(engine.evaluate(arg), arg);
-        return 0;
+        const bool success = printResult(engine.evaluate(arg), arg);
+        return success ? 0 : 1;
     }
 
     runRepl();
