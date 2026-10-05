@@ -1,7 +1,26 @@
-/build*/
-/out/
-/.vs/
-/.vscode/
-/.idea/
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
 CMakeUserPresets.json
 compile_commands.json
+Makefile
+
+# Object and binary files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# IDE and environment files
+.vs/
+.vscode/
+.idea/

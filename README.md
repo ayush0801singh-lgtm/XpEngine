@@ -1,10 +1,10 @@
 # Expression Parser & AST Evaluation Engine
 
-A production-quality C++17 mathematical expression evaluator. It parses mathematical expressions into an Abstract Syntax Tree (AST) and evaluates them, featuring full support for variables, operator precedence, standard mathematical functions, and strict error handling.
+A C++17 expression parsing and AST evaluation engine implementing lexical analysis, Shunting-Yard parsing, AST construction, and recursive evaluation. It provides a library interface for safe evaluation and a command-line REPL for interactive use.
 
 ## Architecture
 
-The project is strictly separated into four phases: Lexing, Parsing, AST processing, and Evaluation. The public `Engine` facade wraps these steps, providing a safe, non-throwing API.
+The project is structured into four distinct phases, encapsulated by the `expr::Engine` facade:
 
 ```text
        Input String ("3 + 4 * 2")
@@ -28,11 +28,9 @@ The project is strictly separated into four phases: Lexing, Parsing, AST process
 ## Features
 
 - **Variables:** `x = 10`, `x * 2` (Environment state persists between calls)
-- **Math functions:** `sin`, `cos`, `tan`, `sqrt`, `log`, `exp`, `abs`, `min`, `max`
+- **Mathematical Functions:** `sin`, `cos`, `tan`, `sqrt`, `log`, `exp`, `abs`, `min`, `max`
 - **Operators:** `+`, `-`, `*`, `/`, `%`, `^`, unary `+`, unary `-`
-- **Rigorous Error Handling:**
-  - Reports exact character offset of lexical errors, syntax errors, and runtime evaluation errors.
-  - Safely catches division by zero, missing arguments, undefined variables, and mathematical domain errors (e.g. `sqrt(-1)`).
+- **Error Handling:** Returns structured errors indicating the exact character offset of lexical errors, syntax errors, and runtime evaluation errors (e.g., division by zero or domain errors).
 - **Interactive REPL:** A Read-Eval-Print-Loop application to test expressions interactively.
 
 ## Build Instructions
@@ -46,14 +44,12 @@ cmake -B build -S .
 
 # Build the project
 cmake --build build
-
-# Run unit tests and E2E integration tests
-ctest --test-dir build -j8 -V
 ```
 
 ## Usage
 
 ### Command Line Interface
+
 Evaluate a single expression:
 ```bash
 $ ./build/app/expression_engine "3 + 4 * 2"
@@ -77,7 +73,8 @@ Type an expression, or 'quit' / 'exit' to leave.
 ```
 
 ### Library API
-The library is designed to be easily embedded in other applications via the `expr::Engine` facade.
+
+The library is designed to be embedded in other applications via the `expr::Engine` facade.
 
 ```cpp
 #include "expression/Engine.hpp"
@@ -102,15 +99,30 @@ int main() {
 }
 ```
 
+## Testing
+
+The project includes an extensive GoogleTest suite for unit tests and a Python script for End-to-End integration tests. 
+
+To run the tests:
+```bash
+ctest --test-dir build -j8 -V
+```
+
 ## Design Decisions
 
-- **Why separate Parsing from Evaluation?** By keeping the parser ignorant of mathematical operations, we can extend the evaluator (e.g. adding new functions or variables) without touching the syntax rules. This also allows caching the compiled AST if we wanted to execute the same expression thousands of times in a loop.
-- **Why a Shunting-Yard Parser instead of Regex?** Regular expressions cannot parse nested structures (like `(2 + (3 * 4))`). Shunting-Yard provides a mathematically proven way to handle infinite nesting, precedence, and associativity.
-- **Why AST Nodes?** The AST makes the structure explicit. The Visitor pattern (via `ASTVisitor`) allows us to easily add an `ASTPrinter` or an `Evaluator` without modifying the node definitions themselves.
-- **Why C++17?** C++17 features like `std::optional`, `std::string_view`, and `std::variant` are critical for building safe, zero-allocation APIs. Specifically, we used `std::variant` to emulate modern `std::expected` for error handling.
+- **Separation of Parsing from Evaluation:** By producing an Abstract Syntax Tree (AST), the parser acts purely as a syntax validator. The AST can then be evaluated, printed, or processed independently.
+- **Shunting-Yard Parser:** The parser uses Dijkstra's Shunting-Yard algorithm to handle infinite nesting, precedence, and associativity.
+- **AST and Visitor Pattern:** The AST makes the syntactic structure explicit in memory using `std::unique_ptr` for exclusive ownership. The Visitor pattern (via `ASTVisitor`) is used to separate the evaluation logic from the node definitions.
+- **C++17 Features:** `std::optional`, `std::string_view`, and `std::variant` are used to build safe, non-throwing APIs at the library boundary. `std::variant` is used specifically to emulate modern `std::expected` for error handling.
+
+## Complexity Overview
+
+- **Lexical Analysis:** `O(N)` time complexity (where `N` is string length) and `O(T)` space complexity (where `T` is token count).
+- **Parsing:** `O(T)` time complexity (each token is pushed and popped at most once) and `O(T)` space complexity (for the stacks and AST).
+- **Evaluation:** `O(V)` time complexity (where `V` is the number of AST nodes) and `O(D)` space complexity (where `D` is the AST depth) due to recursive traversal.
 
 ## Future Improvements
 
-1. **JIT Compilation:** The AST could be compiled to LLVM IR or raw x64 machine code instead of interpreted via Visitor, yielding a massive performance boost for looping.
-2. **Assignments inside expressions:** Expand the parser to natively understand `x = 5` instead of only supporting it manually via `Environment::set`. (Currently, `x = 5` works in the REPL via standard parsing, wait—actually the REPL doesn't parse `=` yet, we'd add an AssignmentNode for that!).
-3. **Type System:** Extend the engine to handle strings and booleans (e.g., `if(x > 5, 1, 0)`).
+- **JIT Compilation:** Compiling the AST to bytecode or LLVM IR for improved performance in repeated evaluation loops.
+- **Extended Parser:** Support for assignment expressions (`x = 5 + 2`) directly in the language grammar rather than manual environment injection.
+- **Type System:** Extending the engine to handle strings, booleans, and control flow operators (`if`, `>`, `<`).

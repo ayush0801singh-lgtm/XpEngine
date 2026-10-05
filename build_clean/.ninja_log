@@ -1,0 +1,27 @@
+# ninja log v7
+70	1375	8129307784112513	CMakeFiles/expression_core.dir/src/Version.cpp.obj	dfafe0489d9a8ef2
+165	1919	8129307785055999	CMakeFiles/expression_core.dir/src/parser/OperatorTable.cpp.obj	fb274de0b9d194ea
+122	1951	8129307784625661	CMakeFiles/expression_core.dir/src/ast/Operators.cpp.obj	121b6247be18676a
+98	2037	8129307784375950	CMakeFiles/expression_core.dir/src/lexer/Token.cpp.obj	aadedd77b734e9e2
+84	2433	8129307784258207	CMakeFiles/expression_core.dir/src/errors/Errors.cpp.obj	e93e7ba2a790ee67
+197	2608	8129307785379998	CMakeFiles/expression_core.dir/src/evaluator/Environment.cpp.obj	80c1b41b4fec498e
+135	2621	8129307784753439	CMakeFiles/expression_core.dir/src/ast/ASTNode.cpp.obj	86499ad2565889e7
+263	2656	8129307786045171	app/CMakeFiles/expression_engine.dir/main.cpp.obj	c310f424b2d049e4
+231	2660	8129307785709196	CMakeFiles/expression_core.dir/src/Engine.cpp.obj	5c98cd3c99cf4e41
+149	2674	8129307784902933	CMakeFiles/expression_core.dir/src/ast/ASTPrinter.cpp.obj	cbcd37e56e6bfdab
+110	2799	8129307784493730	CMakeFiles/expression_core.dir/src/lexer/Lexer.cpp.obj	dec491691a73695c
+214	3223	8129307785556076	CMakeFiles/expression_core.dir/src/evaluator/Evaluator.cpp.obj	4ec43aa001473f7
+248	3832	8129307785889961	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	ac2079f3bd2767c
+179	4196	8129307785199453	CMakeFiles/expression_core.dir/src/parser/Parser.cpp.obj	c37222c62622911d
+4196	4483	8129307825360852	libexpression_core.a	9fd1161faba490b3
+285	4732	8129307786270591	tests/CMakeFiles/expression_tests.dir/test_smoke.cpp.obj	779c1a27ceef4e00
+4483	5225	8129307828230366	app/expression_engine.exe	e91e3102ba73176e
+1377	7244	8129307797183239	tests/CMakeFiles/expression_tests.dir/test_ast.cpp.obj	f7edd9708e667183
+1952	7289	8129307802930668	tests/CMakeFiles/expression_tests.dir/test_engine.cpp.obj	55eed8de3a474deb
+339	8645	8129307786792046	tests/CMakeFiles/expression_tests.dir/test_parser.cpp.obj	189c6fb14bf0b773
+316	8676	8129307786581184	tests/CMakeFiles/expression_tests.dir/test_lexer.cpp.obj	f29ff56f582d1abf
+1920	8904	8129307802599761	tests/CMakeFiles/expression_tests.dir/test_evaluator.cpp.obj	aae3d6d26d0b5336
+55	37285	8129307783964775	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	100b8d1de95536f9
+37288	37537	8129308156266163	lib/libgtest.a	39923bfd1f4a8f6e
+37537	37748	8129308158773681	lib/libgtest_main.a	f8d7cbf04690eb8f
+37748	38487	8129308160891936	tests/expression_tests.exe	b85b5e31ccbc2aa8

@@ -1,0 +1,2719 @@
+Start testing: Oct 06 00:43 India Standard Time
+----------------------------------------------------------
+1/101 Testing: Engine.SuccessfulEvaluationReturnsValue
+1/101 Test: Engine.SuccessfulEvaluationReturnsValue
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Engine.SuccessfulEvaluationReturnsValue" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Engine.SuccessfulEvaluationReturnsValue" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Engine.SuccessfulEvaluationReturnsValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engine
+[ RUN      ] Engine.SuccessfulEvaluationReturnsValue
+[       OK ] Engine.SuccessfulEvaluationReturnsValue (0 ms)
+[----------] 1 test from Engine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"Engine.SuccessfulEvaluationReturnsValue" end time: Oct 06 00:43 India Standard Time
+"Engine.SuccessfulEvaluationReturnsValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/101 Testing: Engine.CatchLexError
+2/101 Test: Engine.CatchLexError
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Engine.CatchLexError" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Engine.CatchLexError" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Engine.CatchLexError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engine
+[ RUN      ] Engine.CatchLexError
+[       OK ] Engine.CatchLexError (0 ms)
+[----------] 1 test from Engine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"Engine.CatchLexError" end time: Oct 06 00:43 India Standard Time
+"Engine.CatchLexError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/101 Testing: Engine.CatchParseError
+3/101 Test: Engine.CatchParseError
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Engine.CatchParseError" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Engine.CatchParseError" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Engine.CatchParseError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engine
+[ RUN      ] Engine.CatchParseError
+[       OK ] Engine.CatchParseError (0 ms)
+[----------] 1 test from Engine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"Engine.CatchParseError" end time: Oct 06 00:43 India Standard Time
+"Engine.CatchParseError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/101 Testing: Engine.CatchEvaluationError
+4/101 Test: Engine.CatchEvaluationError
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Engine.CatchEvaluationError" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Engine.CatchEvaluationError" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Engine.CatchEvaluationError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engine
+[ RUN      ] Engine.CatchEvaluationError
+[       OK ] Engine.CatchEvaluationError (0 ms)
+[----------] 1 test from Engine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"Engine.CatchEvaluationError" end time: Oct 06 00:43 India Standard Time
+"Engine.CatchEvaluationError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/101 Testing: Engine.StateIsPersistedAcrossCalls
+5/101 Test: Engine.StateIsPersistedAcrossCalls
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Engine.StateIsPersistedAcrossCalls" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Engine.StateIsPersistedAcrossCalls" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Engine.StateIsPersistedAcrossCalls
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Engine
+[ RUN      ] Engine.StateIsPersistedAcrossCalls
+[       OK ] Engine.StateIsPersistedAcrossCalls (0 ms)
+[----------] 1 test from Engine (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"Engine.StateIsPersistedAcrossCalls" end time: Oct 06 00:43 India Standard Time
+"Engine.StateIsPersistedAcrossCalls" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/101 Testing: Evaluator.Numbers
+6/101 Test: Evaluator.Numbers
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Numbers" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Numbers" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Numbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Numbers
+[       OK ] Evaluator.Numbers (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Numbers" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Numbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/101 Testing: Evaluator.Addition
+7/101 Test: Evaluator.Addition
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Addition" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Addition" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Addition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Addition
+[       OK ] Evaluator.Addition (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Addition" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Addition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/101 Testing: Evaluator.Subtraction
+8/101 Test: Evaluator.Subtraction
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Subtraction" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Subtraction" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Subtraction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Subtraction
+[       OK ] Evaluator.Subtraction (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Subtraction" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Subtraction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/101 Testing: Evaluator.Multiplication
+9/101 Test: Evaluator.Multiplication
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Multiplication" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Multiplication" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Multiplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Multiplication
+[       OK ] Evaluator.Multiplication (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Multiplication" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Multiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/101 Testing: Evaluator.Division
+10/101 Test: Evaluator.Division
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Division" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Division" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Division
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Division
+[       OK ] Evaluator.Division (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Division" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Division" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/101 Testing: Evaluator.Modulo
+11/101 Test: Evaluator.Modulo
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Modulo" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Modulo" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Modulo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Modulo
+[       OK ] Evaluator.Modulo (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Modulo" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Modulo" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/101 Testing: Evaluator.Power
+12/101 Test: Evaluator.Power
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Power" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Power" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Power
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Power
+[       OK ] Evaluator.Power (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Power" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Power" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/101 Testing: Evaluator.Unary
+13/101 Test: Evaluator.Unary
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Evaluator.Unary" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Evaluator.Unary" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Evaluator.Unary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Evaluator
+[ RUN      ] Evaluator.Unary
+[       OK ] Evaluator.Unary (0 ms)
+[----------] 1 test from Evaluator (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Evaluator.Unary" end time: Oct 06 00:43 India Standard Time
+"Evaluator.Unary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/101 Testing: EvaluatorPrecedence.MixedOperations
+14/101 Test: EvaluatorPrecedence.MixedOperations
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorPrecedence.MixedOperations" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorPrecedence.MixedOperations" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorPrecedence.MixedOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorPrecedence
+[ RUN      ] EvaluatorPrecedence.MixedOperations
+[       OK ] EvaluatorPrecedence.MixedOperations (0 ms)
+[----------] 1 test from EvaluatorPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorPrecedence.MixedOperations" end time: Oct 06 00:43 India Standard Time
+"EvaluatorPrecedence.MixedOperations" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/101 Testing: EvaluatorVariables.Lookup
+15/101 Test: EvaluatorVariables.Lookup
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorVariables.Lookup" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorVariables.Lookup" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorVariables.Lookup
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorVariables
+[ RUN      ] EvaluatorVariables.Lookup
+[       OK ] EvaluatorVariables.Lookup (0 ms)
+[----------] 1 test from EvaluatorVariables (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorVariables.Lookup" end time: Oct 06 00:43 India Standard Time
+"EvaluatorVariables.Lookup" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/101 Testing: EvaluatorVariables.UndefinedVariable
+16/101 Test: EvaluatorVariables.UndefinedVariable
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorVariables.UndefinedVariable" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorVariables.UndefinedVariable" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorVariables.UndefinedVariable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorVariables
+[ RUN      ] EvaluatorVariables.UndefinedVariable
+[       OK ] EvaluatorVariables.UndefinedVariable (0 ms)
+[----------] 1 test from EvaluatorVariables (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorVariables.UndefinedVariable" end time: Oct 06 00:43 India Standard Time
+"EvaluatorVariables.UndefinedVariable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/101 Testing: EvaluatorFunctions.Builtins
+17/101 Test: EvaluatorFunctions.Builtins
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorFunctions.Builtins" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorFunctions.Builtins" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorFunctions.Builtins
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorFunctions
+[ RUN      ] EvaluatorFunctions.Builtins
+[       OK ] EvaluatorFunctions.Builtins (0 ms)
+[----------] 1 test from EvaluatorFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorFunctions.Builtins" end time: Oct 06 00:43 India Standard Time
+"EvaluatorFunctions.Builtins" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/101 Testing: EvaluatorFunctions.NestedExpressions
+18/101 Test: EvaluatorFunctions.NestedExpressions
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorFunctions.NestedExpressions" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorFunctions.NestedExpressions" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorFunctions.NestedExpressions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorFunctions
+[ RUN      ] EvaluatorFunctions.NestedExpressions
+[       OK ] EvaluatorFunctions.NestedExpressions (0 ms)
+[----------] 1 test from EvaluatorFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorFunctions.NestedExpressions" end time: Oct 06 00:43 India Standard Time
+"EvaluatorFunctions.NestedExpressions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/101 Testing: EvaluatorErrors.DivisionByZero
+19/101 Test: EvaluatorErrors.DivisionByZero
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.DivisionByZero" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.DivisionByZero" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.DivisionByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.DivisionByZero
+[       OK ] EvaluatorErrors.DivisionByZero (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.DivisionByZero" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.DivisionByZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/101 Testing: EvaluatorErrors.ModuloByZero
+20/101 Test: EvaluatorErrors.ModuloByZero
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.ModuloByZero" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.ModuloByZero" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.ModuloByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.ModuloByZero
+[       OK ] EvaluatorErrors.ModuloByZero (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.ModuloByZero" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.ModuloByZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/101 Testing: EvaluatorErrors.UnknownFunction
+21/101 Test: EvaluatorErrors.UnknownFunction
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.UnknownFunction" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.UnknownFunction" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.UnknownFunction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.UnknownFunction
+[       OK ] EvaluatorErrors.UnknownFunction (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.UnknownFunction" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.UnknownFunction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/101 Testing: EvaluatorErrors.IncorrectArgumentCount
+22/101 Test: EvaluatorErrors.IncorrectArgumentCount
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.IncorrectArgumentCount" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.IncorrectArgumentCount" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.IncorrectArgumentCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.IncorrectArgumentCount
+[       OK ] EvaluatorErrors.IncorrectArgumentCount (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.IncorrectArgumentCount" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.IncorrectArgumentCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/101 Testing: EvaluatorErrors.MathDomainErrors
+23/101 Test: EvaluatorErrors.MathDomainErrors
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.MathDomainErrors" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.MathDomainErrors" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.MathDomainErrors
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.MathDomainErrors
+[       OK ] EvaluatorErrors.MathDomainErrors (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.MathDomainErrors" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.MathDomainErrors" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/101 Testing: EvaluatorErrors.ErrorIncludesPosition
+24/101 Test: EvaluatorErrors.ErrorIncludesPosition
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=EvaluatorErrors.ErrorIncludesPosition" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"EvaluatorErrors.ErrorIncludesPosition" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = EvaluatorErrors.ErrorIncludesPosition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EvaluatorErrors
+[ RUN      ] EvaluatorErrors.ErrorIncludesPosition
+[       OK ] EvaluatorErrors.ErrorIncludesPosition (0 ms)
+[----------] 1 test from EvaluatorErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"EvaluatorErrors.ErrorIncludesPosition" end time: Oct 06 00:43 India Standard Time
+"EvaluatorErrors.ErrorIncludesPosition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/101 Testing: ASTOwnership.UnaryNodeDestroysOperand
+25/101 Test: ASTOwnership.UnaryNodeDestroysOperand
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTOwnership.UnaryNodeDestroysOperand" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTOwnership.UnaryNodeDestroysOperand" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTOwnership.UnaryNodeDestroysOperand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTOwnership
+[ RUN      ] ASTOwnership.UnaryNodeDestroysOperand
+[       OK ] ASTOwnership.UnaryNodeDestroysOperand (0 ms)
+[----------] 1 test from ASTOwnership (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ASTOwnership.UnaryNodeDestroysOperand" end time: Oct 06 00:43 India Standard Time
+"ASTOwnership.UnaryNodeDestroysOperand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/101 Testing: ASTOwnership.BinaryNodeDestroysBothOperands
+26/101 Test: ASTOwnership.BinaryNodeDestroysBothOperands
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTOwnership.BinaryNodeDestroysBothOperands" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTOwnership.BinaryNodeDestroysBothOperands" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTOwnership.BinaryNodeDestroysBothOperands
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTOwnership
+[ RUN      ] ASTOwnership.BinaryNodeDestroysBothOperands
+[       OK ] ASTOwnership.BinaryNodeDestroysBothOperands (0 ms)
+[----------] 1 test from ASTOwnership (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ASTOwnership.BinaryNodeDestroysBothOperands" end time: Oct 06 00:43 India Standard Time
+"ASTOwnership.BinaryNodeDestroysBothOperands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/101 Testing: ASTOwnership.FunctionCallDestroysAllArguments
+27/101 Test: ASTOwnership.FunctionCallDestroysAllArguments
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTOwnership.FunctionCallDestroysAllArguments" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTOwnership.FunctionCallDestroysAllArguments" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTOwnership.FunctionCallDestroysAllArguments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTOwnership
+[ RUN      ] ASTOwnership.FunctionCallDestroysAllArguments
+[       OK ] ASTOwnership.FunctionCallDestroysAllArguments (0 ms)
+[----------] 1 test from ASTOwnership (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ASTOwnership.FunctionCallDestroysAllArguments" end time: Oct 06 00:43 India Standard Time
+"ASTOwnership.FunctionCallDestroysAllArguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/101 Testing: ASTOwnership.DeepTreeIsDestroyedAutomatically
+28/101 Test: ASTOwnership.DeepTreeIsDestroyedAutomatically
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTOwnership.DeepTreeIsDestroyedAutomatically" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTOwnership.DeepTreeIsDestroyedAutomatically" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTOwnership.DeepTreeIsDestroyedAutomatically
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTOwnership
+[ RUN      ] ASTOwnership.DeepTreeIsDestroyedAutomatically
+[       OK ] ASTOwnership.DeepTreeIsDestroyedAutomatically (0 ms)
+[----------] 1 test from ASTOwnership (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ASTOwnership.DeepTreeIsDestroyedAutomatically" end time: Oct 06 00:43 India Standard Time
+"ASTOwnership.DeepTreeIsDestroyedAutomatically" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/101 Testing: ASTInvariants.UnaryNodeRejectsNullOperand
+29/101 Test: ASTInvariants.UnaryNodeRejectsNullOperand
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTInvariants.UnaryNodeRejectsNullOperand" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTInvariants.UnaryNodeRejectsNullOperand" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTInvariants.UnaryNodeRejectsNullOperand
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTInvariants
+[ RUN      ] ASTInvariants.UnaryNodeRejectsNullOperand
+[       OK ] ASTInvariants.UnaryNodeRejectsNullOperand (0 ms)
+[----------] 1 test from ASTInvariants (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ASTInvariants.UnaryNodeRejectsNullOperand" end time: Oct 06 00:43 India Standard Time
+"ASTInvariants.UnaryNodeRejectsNullOperand" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/101 Testing: ASTInvariants.BinaryNodeRejectsNullOperands
+30/101 Test: ASTInvariants.BinaryNodeRejectsNullOperands
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTInvariants.BinaryNodeRejectsNullOperands" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTInvariants.BinaryNodeRejectsNullOperands" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTInvariants.BinaryNodeRejectsNullOperands
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTInvariants
+[ RUN      ] ASTInvariants.BinaryNodeRejectsNullOperands
+[       OK ] ASTInvariants.BinaryNodeRejectsNullOperands (0 ms)
+[----------] 1 test from ASTInvariants (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ASTInvariants.BinaryNodeRejectsNullOperands" end time: Oct 06 00:43 India Standard Time
+"ASTInvariants.BinaryNodeRejectsNullOperands" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/101 Testing: ASTInvariants.FunctionCallRejectsNullArguments
+31/101 Test: ASTInvariants.FunctionCallRejectsNullArguments
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTInvariants.FunctionCallRejectsNullArguments" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTInvariants.FunctionCallRejectsNullArguments" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTInvariants.FunctionCallRejectsNullArguments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTInvariants
+[ RUN      ] ASTInvariants.FunctionCallRejectsNullArguments
+[       OK ] ASTInvariants.FunctionCallRejectsNullArguments (0 ms)
+[----------] 1 test from ASTInvariants (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ASTInvariants.FunctionCallRejectsNullArguments" end time: Oct 06 00:43 India Standard Time
+"ASTInvariants.FunctionCallRejectsNullArguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/101 Testing: ASTPrinter.FormatsNumber
+32/101 Test: ASTPrinter.FormatsNumber
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsNumber" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsNumber" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsNumber
+[       OK ] ASTPrinter.FormatsNumber (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsNumber" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/101 Testing: ASTPrinter.FormatsVariable
+33/101 Test: ASTPrinter.FormatsVariable
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsVariable" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsVariable" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsVariable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsVariable
+[       OK ] ASTPrinter.FormatsVariable (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsVariable" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsVariable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/101 Testing: ASTPrinter.FormatsUnaryOperator
+34/101 Test: ASTPrinter.FormatsUnaryOperator
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsUnaryOperator" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsUnaryOperator" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsUnaryOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsUnaryOperator
+[       OK ] ASTPrinter.FormatsUnaryOperator (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsUnaryOperator" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsUnaryOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/101 Testing: ASTPrinter.FormatsBinaryOperator
+35/101 Test: ASTPrinter.FormatsBinaryOperator
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsBinaryOperator" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsBinaryOperator" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsBinaryOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsBinaryOperator
+[       OK ] ASTPrinter.FormatsBinaryOperator (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsBinaryOperator" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsBinaryOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/101 Testing: ASTPrinter.FormatsFunctionCall
+36/101 Test: ASTPrinter.FormatsFunctionCall
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsFunctionCall" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsFunctionCall" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsFunctionCall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsFunctionCall
+[       OK ] ASTPrinter.FormatsFunctionCall (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsFunctionCall" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsFunctionCall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/101 Testing: ASTPrinter.FormatsDeepTree
+37/101 Test: ASTPrinter.FormatsDeepTree
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ASTPrinter.FormatsDeepTree" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ASTPrinter.FormatsDeepTree" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ASTPrinter.FormatsDeepTree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ASTPrinter
+[ RUN      ] ASTPrinter.FormatsDeepTree
+[       OK ] ASTPrinter.FormatsDeepTree (0 ms)
+[----------] 1 test from ASTPrinter (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ASTPrinter.FormatsDeepTree" end time: Oct 06 00:43 India Standard Time
+"ASTPrinter.FormatsDeepTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/101 Testing: Parser.SingleNumber
+38/101 Test: Parser.SingleNumber
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.SingleNumber" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.SingleNumber" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.SingleNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.SingleNumber
+[       OK ] Parser.SingleNumber (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.SingleNumber" end time: Oct 06 00:43 India Standard Time
+"Parser.SingleNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/101 Testing: Parser.SingleVariable
+39/101 Test: Parser.SingleVariable
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.SingleVariable" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.SingleVariable" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.SingleVariable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.SingleVariable
+[       OK ] Parser.SingleVariable (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.SingleVariable" end time: Oct 06 00:43 India Standard Time
+"Parser.SingleVariable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/101 Testing: Parser.RedundantParenthesesLeaveNoTraceInTree
+40/101 Test: Parser.RedundantParenthesesLeaveNoTraceInTree
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.RedundantParenthesesLeaveNoTraceInTree" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.RedundantParenthesesLeaveNoTraceInTree" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.RedundantParenthesesLeaveNoTraceInTree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.RedundantParenthesesLeaveNoTraceInTree
+[       OK ] Parser.RedundantParenthesesLeaveNoTraceInTree (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.RedundantParenthesesLeaveNoTraceInTree" end time: Oct 06 00:43 India Standard Time
+"Parser.RedundantParenthesesLeaveNoTraceInTree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/101 Testing: Parser.NodesRecordTokenPositions
+41/101 Test: Parser.NodesRecordTokenPositions
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.NodesRecordTokenPositions" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.NodesRecordTokenPositions" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.NodesRecordTokenPositions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.NodesRecordTokenPositions
+[       OK ] Parser.NodesRecordTokenPositions (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.NodesRecordTokenPositions" end time: Oct 06 00:43 India Standard Time
+"Parser.NodesRecordTokenPositions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/101 Testing: Parser.ParseFromTokenVector
+42/101 Test: Parser.ParseFromTokenVector
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.ParseFromTokenVector" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.ParseFromTokenVector" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.ParseFromTokenVector
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.ParseFromTokenVector
+[       OK ] Parser.ParseFromTokenVector (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.ParseFromTokenVector" end time: Oct 06 00:43 India Standard Time
+"Parser.ParseFromTokenVector" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/101 Testing: Parser.TokenVectorWithoutEndIsRejected
+43/101 Test: Parser.TokenVectorWithoutEndIsRejected
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Parser.TokenVectorWithoutEndIsRejected" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Parser.TokenVectorWithoutEndIsRejected" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Parser.TokenVectorWithoutEndIsRejected
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Parser
+[ RUN      ] Parser.TokenVectorWithoutEndIsRejected
+[       OK ] Parser.TokenVectorWithoutEndIsRejected (0 ms)
+[----------] 1 test from Parser (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"Parser.TokenVectorWithoutEndIsRejected" end time: Oct 06 00:43 India Standard Time
+"Parser.TokenVectorWithoutEndIsRejected" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/101 Testing: ParserPrecedence.MultiplicationBindsTighterThanAddition
+44/101 Test: ParserPrecedence.MultiplicationBindsTighterThanAddition
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserPrecedence.MultiplicationBindsTighterThanAddition" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserPrecedence.MultiplicationBindsTighterThanAddition" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserPrecedence.MultiplicationBindsTighterThanAddition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserPrecedence
+[ RUN      ] ParserPrecedence.MultiplicationBindsTighterThanAddition
+[       OK ] ParserPrecedence.MultiplicationBindsTighterThanAddition (0 ms)
+[----------] 1 test from ParserPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserPrecedence.MultiplicationBindsTighterThanAddition" end time: Oct 06 00:43 India Standard Time
+"ParserPrecedence.MultiplicationBindsTighterThanAddition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/101 Testing: ParserPrecedence.ParenthesesOverridePrecedence
+45/101 Test: ParserPrecedence.ParenthesesOverridePrecedence
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserPrecedence.ParenthesesOverridePrecedence" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserPrecedence.ParenthesesOverridePrecedence" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserPrecedence.ParenthesesOverridePrecedence
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserPrecedence
+[ RUN      ] ParserPrecedence.ParenthesesOverridePrecedence
+[       OK ] ParserPrecedence.ParenthesesOverridePrecedence (0 ms)
+[----------] 1 test from ParserPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"ParserPrecedence.ParenthesesOverridePrecedence" end time: Oct 06 00:43 India Standard Time
+"ParserPrecedence.ParenthesesOverridePrecedence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/101 Testing: ParserPrecedence.ModuloHasMultiplicativePrecedence
+46/101 Test: ParserPrecedence.ModuloHasMultiplicativePrecedence
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserPrecedence.ModuloHasMultiplicativePrecedence" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserPrecedence.ModuloHasMultiplicativePrecedence" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserPrecedence.ModuloHasMultiplicativePrecedence
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserPrecedence
+[ RUN      ] ParserPrecedence.ModuloHasMultiplicativePrecedence
+[       OK ] ParserPrecedence.ModuloHasMultiplicativePrecedence (0 ms)
+[----------] 1 test from ParserPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"ParserPrecedence.ModuloHasMultiplicativePrecedence" end time: Oct 06 00:43 India Standard Time
+"ParserPrecedence.ModuloHasMultiplicativePrecedence" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/101 Testing: ParserPrecedence.PowerBindsTighterThanMultiplication
+47/101 Test: ParserPrecedence.PowerBindsTighterThanMultiplication
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserPrecedence.PowerBindsTighterThanMultiplication" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserPrecedence.PowerBindsTighterThanMultiplication" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserPrecedence.PowerBindsTighterThanMultiplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserPrecedence
+[ RUN      ] ParserPrecedence.PowerBindsTighterThanMultiplication
+[       OK ] ParserPrecedence.PowerBindsTighterThanMultiplication (0 ms)
+[----------] 1 test from ParserPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserPrecedence.PowerBindsTighterThanMultiplication" end time: Oct 06 00:43 India Standard Time
+"ParserPrecedence.PowerBindsTighterThanMultiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/101 Testing: ParserPrecedence.Polynomial
+48/101 Test: ParserPrecedence.Polynomial
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserPrecedence.Polynomial" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserPrecedence.Polynomial" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserPrecedence.Polynomial
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserPrecedence
+[ RUN      ] ParserPrecedence.Polynomial
+[       OK ] ParserPrecedence.Polynomial (0 ms)
+[----------] 1 test from ParserPrecedence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserPrecedence.Polynomial" end time: Oct 06 00:43 India Standard Time
+"ParserPrecedence.Polynomial" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/101 Testing: ParserAssociativity.SubtractionIsLeftAssociative
+49/101 Test: ParserAssociativity.SubtractionIsLeftAssociative
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserAssociativity.SubtractionIsLeftAssociative" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserAssociativity.SubtractionIsLeftAssociative" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserAssociativity.SubtractionIsLeftAssociative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserAssociativity
+[ RUN      ] ParserAssociativity.SubtractionIsLeftAssociative
+[       OK ] ParserAssociativity.SubtractionIsLeftAssociative (0 ms)
+[----------] 1 test from ParserAssociativity (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserAssociativity.SubtractionIsLeftAssociative" end time: Oct 06 00:43 India Standard Time
+"ParserAssociativity.SubtractionIsLeftAssociative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/101 Testing: ParserAssociativity.DivisionAndModuloAreLeftAssociative
+50/101 Test: ParserAssociativity.DivisionAndModuloAreLeftAssociative
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserAssociativity.DivisionAndModuloAreLeftAssociative" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserAssociativity.DivisionAndModuloAreLeftAssociative" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserAssociativity.DivisionAndModuloAreLeftAssociative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserAssociativity
+[ RUN      ] ParserAssociativity.DivisionAndModuloAreLeftAssociative
+[       OK ] ParserAssociativity.DivisionAndModuloAreLeftAssociative (0 ms)
+[----------] 1 test from ParserAssociativity (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserAssociativity.DivisionAndModuloAreLeftAssociative" end time: Oct 06 00:43 India Standard Time
+"ParserAssociativity.DivisionAndModuloAreLeftAssociative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/101 Testing: ParserAssociativity.PowerIsRightAssociative
+51/101 Test: ParserAssociativity.PowerIsRightAssociative
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserAssociativity.PowerIsRightAssociative" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserAssociativity.PowerIsRightAssociative" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserAssociativity.PowerIsRightAssociative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserAssociativity
+[ RUN      ] ParserAssociativity.PowerIsRightAssociative
+[       OK ] ParserAssociativity.PowerIsRightAssociative (0 ms)
+[----------] 1 test from ParserAssociativity (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserAssociativity.PowerIsRightAssociative" end time: Oct 06 00:43 India Standard Time
+"ParserAssociativity.PowerIsRightAssociative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/101 Testing: ParserUnary.LeadingMinusAndPlus
+52/101 Test: ParserUnary.LeadingMinusAndPlus
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.LeadingMinusAndPlus" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.LeadingMinusAndPlus" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.LeadingMinusAndPlus
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.LeadingMinusAndPlus
+[       OK ] ParserUnary.LeadingMinusAndPlus (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.LeadingMinusAndPlus" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.LeadingMinusAndPlus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/101 Testing: ParserUnary.RepeatedUnaryOperators
+53/101 Test: ParserUnary.RepeatedUnaryOperators
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.RepeatedUnaryOperators" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.RepeatedUnaryOperators" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.RepeatedUnaryOperators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.RepeatedUnaryOperators
+[       OK ] ParserUnary.RepeatedUnaryOperators (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.RepeatedUnaryOperators" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.RepeatedUnaryOperators" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/101 Testing: ParserUnary.UnaryAfterBinaryOperator
+54/101 Test: ParserUnary.UnaryAfterBinaryOperator
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.UnaryAfterBinaryOperator" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.UnaryAfterBinaryOperator" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.UnaryAfterBinaryOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.UnaryAfterBinaryOperator
+[       OK ] ParserUnary.UnaryAfterBinaryOperator (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.UnaryAfterBinaryOperator" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.UnaryAfterBinaryOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/101 Testing: ParserUnary.UnaryMinusBindsLooserThanPower
+55/101 Test: ParserUnary.UnaryMinusBindsLooserThanPower
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.UnaryMinusBindsLooserThanPower" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.UnaryMinusBindsLooserThanPower" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.UnaryMinusBindsLooserThanPower
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.UnaryMinusBindsLooserThanPower
+[       OK ] ParserUnary.UnaryMinusBindsLooserThanPower (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.UnaryMinusBindsLooserThanPower" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.UnaryMinusBindsLooserThanPower" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/101 Testing: ParserUnary.UnaryMinusBindsTighterThanMultiplication
+56/101 Test: ParserUnary.UnaryMinusBindsTighterThanMultiplication
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.UnaryMinusBindsTighterThanMultiplication" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.UnaryMinusBindsTighterThanMultiplication" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.UnaryMinusBindsTighterThanMultiplication
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.UnaryMinusBindsTighterThanMultiplication
+[       OK ] ParserUnary.UnaryMinusBindsTighterThanMultiplication (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.UnaryMinusBindsTighterThanMultiplication" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.UnaryMinusBindsTighterThanMultiplication" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/101 Testing: ParserUnary.SpecExample
+57/101 Test: ParserUnary.SpecExample
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserUnary.SpecExample" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserUnary.SpecExample" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserUnary.SpecExample
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserUnary
+[ RUN      ] ParserUnary.SpecExample
+[       OK ] ParserUnary.SpecExample (0 ms)
+[----------] 1 test from ParserUnary (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserUnary.SpecExample" end time: Oct 06 00:43 India Standard Time
+"ParserUnary.SpecExample" time elapsed: 00:00:00
+----------------------------------------------------------
+
+58/101 Testing: ParserFunctions.SingleArgument
+58/101 Test: ParserFunctions.SingleArgument
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.SingleArgument" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.SingleArgument" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.SingleArgument
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.SingleArgument
+[       OK ] ParserFunctions.SingleArgument (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.SingleArgument" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.SingleArgument" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/101 Testing: ParserFunctions.MultipleArguments
+59/101 Test: ParserFunctions.MultipleArguments
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.MultipleArguments" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.MultipleArguments" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.MultipleArguments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.MultipleArguments
+[       OK ] ParserFunctions.MultipleArguments (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.MultipleArguments" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.MultipleArguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/101 Testing: ParserFunctions.ZeroArguments
+60/101 Test: ParserFunctions.ZeroArguments
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.ZeroArguments" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.ZeroArguments" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.ZeroArguments
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.ZeroArguments
+[       OK ] ParserFunctions.ZeroArguments (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.ZeroArguments" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.ZeroArguments" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/101 Testing: ParserFunctions.ArgumentsAreFullExpressions
+61/101 Test: ParserFunctions.ArgumentsAreFullExpressions
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.ArgumentsAreFullExpressions" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.ArgumentsAreFullExpressions" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.ArgumentsAreFullExpressions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.ArgumentsAreFullExpressions
+[       OK ] ParserFunctions.ArgumentsAreFullExpressions (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.ArgumentsAreFullExpressions" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.ArgumentsAreFullExpressions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/101 Testing: ParserFunctions.NestedCalls
+62/101 Test: ParserFunctions.NestedCalls
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.NestedCalls" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.NestedCalls" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.NestedCalls
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.NestedCalls
+[       OK ] ParserFunctions.NestedCalls (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.NestedCalls" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.NestedCalls" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/101 Testing: ParserFunctions.UnaryMinusAppliedToCall
+63/101 Test: ParserFunctions.UnaryMinusAppliedToCall
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserFunctions.UnaryMinusAppliedToCall" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserFunctions.UnaryMinusAppliedToCall" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserFunctions.UnaryMinusAppliedToCall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserFunctions
+[ RUN      ] ParserFunctions.UnaryMinusAppliedToCall
+[       OK ] ParserFunctions.UnaryMinusAppliedToCall (0 ms)
+[----------] 1 test from ParserFunctions (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserFunctions.UnaryMinusAppliedToCall" end time: Oct 06 00:43 India Standard Time
+"ParserFunctions.UnaryMinusAppliedToCall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/101 Testing: ParserErrors.EmptyInput
+64/101 Test: ParserErrors.EmptyInput
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.EmptyInput" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.EmptyInput" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.EmptyInput
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.EmptyInput
+[       OK ] ParserErrors.EmptyInput (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.EmptyInput" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.EmptyInput" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/101 Testing: ParserErrors.MissingOperandAtEnd
+65/101 Test: ParserErrors.MissingOperandAtEnd
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.MissingOperandAtEnd" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.MissingOperandAtEnd" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.MissingOperandAtEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.MissingOperandAtEnd
+[       OK ] ParserErrors.MissingOperandAtEnd (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.MissingOperandAtEnd" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.MissingOperandAtEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/101 Testing: ParserErrors.MissingOperandBetweenOperators
+66/101 Test: ParserErrors.MissingOperandBetweenOperators
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.MissingOperandBetweenOperators" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.MissingOperandBetweenOperators" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.MissingOperandBetweenOperators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.MissingOperandBetweenOperators
+[       OK ] ParserErrors.MissingOperandBetweenOperators (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.MissingOperandBetweenOperators" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.MissingOperandBetweenOperators" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/101 Testing: ParserErrors.UnmatchedOpenParenthesis
+67/101 Test: ParserErrors.UnmatchedOpenParenthesis
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.UnmatchedOpenParenthesis" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.UnmatchedOpenParenthesis" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.UnmatchedOpenParenthesis
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.UnmatchedOpenParenthesis
+[       OK ] ParserErrors.UnmatchedOpenParenthesis (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.UnmatchedOpenParenthesis" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.UnmatchedOpenParenthesis" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/101 Testing: ParserErrors.UnmatchedCloseParenthesis
+68/101 Test: ParserErrors.UnmatchedCloseParenthesis
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.UnmatchedCloseParenthesis" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.UnmatchedCloseParenthesis" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.UnmatchedCloseParenthesis
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.UnmatchedCloseParenthesis
+[       OK ] ParserErrors.UnmatchedCloseParenthesis (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.UnmatchedCloseParenthesis" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.UnmatchedCloseParenthesis" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/101 Testing: ParserErrors.EmptyParentheses
+69/101 Test: ParserErrors.EmptyParentheses
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.EmptyParentheses" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.EmptyParentheses" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.EmptyParentheses
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.EmptyParentheses
+[       OK ] ParserErrors.EmptyParentheses (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.EmptyParentheses" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.EmptyParentheses" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/101 Testing: ParserErrors.MissingOperator
+70/101 Test: ParserErrors.MissingOperator
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.MissingOperator" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.MissingOperator" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.MissingOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.MissingOperator
+[       OK ] ParserErrors.MissingOperator (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.MissingOperator" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.MissingOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/101 Testing: ParserErrors.BadFunctionArgumentLists
+71/101 Test: ParserErrors.BadFunctionArgumentLists
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.BadFunctionArgumentLists" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.BadFunctionArgumentLists" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.BadFunctionArgumentLists
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.BadFunctionArgumentLists
+[       OK ] ParserErrors.BadFunctionArgumentLists (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.BadFunctionArgumentLists" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.BadFunctionArgumentLists" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/101 Testing: ParserErrors.CommaOutsideFunctionCall
+72/101 Test: ParserErrors.CommaOutsideFunctionCall
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.CommaOutsideFunctionCall" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.CommaOutsideFunctionCall" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.CommaOutsideFunctionCall
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.CommaOutsideFunctionCall
+[       OK ] ParserErrors.CommaOutsideFunctionCall (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.CommaOutsideFunctionCall" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.CommaOutsideFunctionCall" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/101 Testing: ParserErrors.MessageFormat
+73/101 Test: ParserErrors.MessageFormat
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.MessageFormat" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.MessageFormat" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.MessageFormat
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.MessageFormat
+[       OK ] ParserErrors.MessageFormat (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.MessageFormat" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.MessageFormat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/101 Testing: ParserErrors.LexErrorsPropagateThroughParse
+74/101 Test: ParserErrors.LexErrorsPropagateThroughParse
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.LexErrorsPropagateThroughParse" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.LexErrorsPropagateThroughParse" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.LexErrorsPropagateThroughParse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.LexErrorsPropagateThroughParse
+[       OK ] ParserErrors.LexErrorsPropagateThroughParse (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.LexErrorsPropagateThroughParse" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.LexErrorsPropagateThroughParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/101 Testing: ParserErrors.AllErrorsShareACommonBase
+75/101 Test: ParserErrors.AllErrorsShareACommonBase
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=ParserErrors.AllErrorsShareACommonBase" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"ParserErrors.AllErrorsShareACommonBase" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = ParserErrors.AllErrorsShareACommonBase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ParserErrors
+[ RUN      ] ParserErrors.AllErrorsShareACommonBase
+[       OK ] ParserErrors.AllErrorsShareACommonBase (0 ms)
+[----------] 1 test from ParserErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ParserErrors.AllErrorsShareACommonBase" end time: Oct 06 00:43 India Standard Time
+"ParserErrors.AllErrorsShareACommonBase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/101 Testing: Lexer.EmptyInputProducesOnlyEnd
+76/101 Test: Lexer.EmptyInputProducesOnlyEnd
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.EmptyInputProducesOnlyEnd" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.EmptyInputProducesOnlyEnd" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.EmptyInputProducesOnlyEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.EmptyInputProducesOnlyEnd
+[       OK ] Lexer.EmptyInputProducesOnlyEnd (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.EmptyInputProducesOnlyEnd" end time: Oct 06 00:43 India Standard Time
+"Lexer.EmptyInputProducesOnlyEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/101 Testing: Lexer.WhitespaceOnlyProducesOnlyEnd
+77/101 Test: Lexer.WhitespaceOnlyProducesOnlyEnd
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.WhitespaceOnlyProducesOnlyEnd" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.WhitespaceOnlyProducesOnlyEnd" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.WhitespaceOnlyProducesOnlyEnd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.WhitespaceOnlyProducesOnlyEnd
+[       OK ] Lexer.WhitespaceOnlyProducesOnlyEnd (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.WhitespaceOnlyProducesOnlyEnd" end time: Oct 06 00:43 India Standard Time
+"Lexer.WhitespaceOnlyProducesOnlyEnd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/101 Testing: Lexer.AllWhitespaceKindsSeparateTokens
+78/101 Test: Lexer.AllWhitespaceKindsSeparateTokens
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.AllWhitespaceKindsSeparateTokens" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.AllWhitespaceKindsSeparateTokens" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.AllWhitespaceKindsSeparateTokens
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.AllWhitespaceKindsSeparateTokens
+[       OK ] Lexer.AllWhitespaceKindsSeparateTokens (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.AllWhitespaceKindsSeparateTokens" end time: Oct 06 00:43 India Standard Time
+"Lexer.AllWhitespaceKindsSeparateTokens" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/101 Testing: Lexer.NextKeepsReturningEndAfterInputIsExhausted
+79/101 Test: Lexer.NextKeepsReturningEndAfterInputIsExhausted
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.NextKeepsReturningEndAfterInputIsExhausted" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.NextKeepsReturningEndAfterInputIsExhausted" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.NextKeepsReturningEndAfterInputIsExhausted
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.NextKeepsReturningEndAfterInputIsExhausted
+[       OK ] Lexer.NextKeepsReturningEndAfterInputIsExhausted (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.NextKeepsReturningEndAfterInputIsExhausted" end time: Oct 06 00:43 India Standard Time
+"Lexer.NextKeepsReturningEndAfterInputIsExhausted" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/101 Testing: Lexer.Integers
+80/101 Test: Lexer.Integers
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.Integers" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.Integers" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.Integers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.Integers
+[       OK ] Lexer.Integers (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.Integers" end time: Oct 06 00:43 India Standard Time
+"Lexer.Integers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/101 Testing: Lexer.DecimalNumbers
+81/101 Test: Lexer.DecimalNumbers
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.DecimalNumbers" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.DecimalNumbers" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.DecimalNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.DecimalNumbers
+[       OK ] Lexer.DecimalNumbers (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.DecimalNumbers" end time: Oct 06 00:43 India Standard Time
+"Lexer.DecimalNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/101 Testing: Lexer.ScientificNotation
+82/101 Test: Lexer.ScientificNotation
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.ScientificNotation" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.ScientificNotation" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.ScientificNotation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.ScientificNotation
+[       OK ] Lexer.ScientificNotation (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.ScientificNotation" end time: Oct 06 00:43 India Standard Time
+"Lexer.ScientificNotation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/101 Testing: Lexer.VeryLongIntegerIsRepresentedApproximately
+83/101 Test: Lexer.VeryLongIntegerIsRepresentedApproximately
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.VeryLongIntegerIsRepresentedApproximately" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.VeryLongIntegerIsRepresentedApproximately" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.VeryLongIntegerIsRepresentedApproximately
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.VeryLongIntegerIsRepresentedApproximately
+[       OK ] Lexer.VeryLongIntegerIsRepresentedApproximately (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.VeryLongIntegerIsRepresentedApproximately" end time: Oct 06 00:43 India Standard Time
+"Lexer.VeryLongIntegerIsRepresentedApproximately" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/101 Testing: Lexer.NumberTokenKeepsOriginalLexeme
+84/101 Test: Lexer.NumberTokenKeepsOriginalLexeme
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.NumberTokenKeepsOriginalLexeme" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.NumberTokenKeepsOriginalLexeme" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.NumberTokenKeepsOriginalLexeme
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.NumberTokenKeepsOriginalLexeme
+[       OK ] Lexer.NumberTokenKeepsOriginalLexeme (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.NumberTokenKeepsOriginalLexeme" end time: Oct 06 00:43 India Standard Time
+"Lexer.NumberTokenKeepsOriginalLexeme" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/101 Testing: Lexer.SignIsNeverPartOfANumber
+85/101 Test: Lexer.SignIsNeverPartOfANumber
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.SignIsNeverPartOfANumber" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.SignIsNeverPartOfANumber" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.SignIsNeverPartOfANumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.SignIsNeverPartOfANumber
+[       OK ] Lexer.SignIsNeverPartOfANumber (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.SignIsNeverPartOfANumber" end time: Oct 06 00:43 India Standard Time
+"Lexer.SignIsNeverPartOfANumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/101 Testing: Lexer.Identifiers
+86/101 Test: Lexer.Identifiers
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.Identifiers" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.Identifiers" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.Identifiers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.Identifiers
+[       OK ] Lexer.Identifiers (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.Identifiers" end time: Oct 06 00:43 India Standard Time
+"Lexer.Identifiers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/101 Testing: Lexer.IdentifierFollowedByParenIsStillAnIdentifier
+87/101 Test: Lexer.IdentifierFollowedByParenIsStillAnIdentifier
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.IdentifierFollowedByParenIsStillAnIdentifier" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.IdentifierFollowedByParenIsStillAnIdentifier" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.IdentifierFollowedByParenIsStillAnIdentifier
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.IdentifierFollowedByParenIsStillAnIdentifier
+[       OK ] Lexer.IdentifierFollowedByParenIsStillAnIdentifier (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.IdentifierFollowedByParenIsStillAnIdentifier" end time: Oct 06 00:43 India Standard Time
+"Lexer.IdentifierFollowedByParenIsStillAnIdentifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/101 Testing: Lexer.AllOperatorsAndPunctuation
+88/101 Test: Lexer.AllOperatorsAndPunctuation
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.AllOperatorsAndPunctuation" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.AllOperatorsAndPunctuation" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.AllOperatorsAndPunctuation
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.AllOperatorsAndPunctuation
+[       OK ] Lexer.AllOperatorsAndPunctuation (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.73 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.AllOperatorsAndPunctuation" end time: Oct 06 00:43 India Standard Time
+"Lexer.AllOperatorsAndPunctuation" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/101 Testing: Lexer.ExpressionWithoutWhitespace
+89/101 Test: Lexer.ExpressionWithoutWhitespace
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.ExpressionWithoutWhitespace" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.ExpressionWithoutWhitespace" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.ExpressionWithoutWhitespace
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.ExpressionWithoutWhitespace
+[       OK ] Lexer.ExpressionWithoutWhitespace (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.71 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.ExpressionWithoutWhitespace" end time: Oct 06 00:43 India Standard Time
+"Lexer.ExpressionWithoutWhitespace" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/101 Testing: Lexer.NestedFunctionExpression
+90/101 Test: Lexer.NestedFunctionExpression
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.NestedFunctionExpression" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.NestedFunctionExpression" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.NestedFunctionExpression
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.NestedFunctionExpression
+[       OK ] Lexer.NestedFunctionExpression (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.70 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.NestedFunctionExpression" end time: Oct 06 00:43 India Standard Time
+"Lexer.NestedFunctionExpression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/101 Testing: Lexer.TokensRecordTheirStartPosition
+91/101 Test: Lexer.TokensRecordTheirStartPosition
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Lexer.TokensRecordTheirStartPosition" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Lexer.TokensRecordTheirStartPosition" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Lexer.TokensRecordTheirStartPosition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Lexer
+[ RUN      ] Lexer.TokensRecordTheirStartPosition
+[       OK ] Lexer.TokensRecordTheirStartPosition (0 ms)
+[----------] 1 test from Lexer (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.69 sec
+----------------------------------------------------------
+Test Passed.
+"Lexer.TokensRecordTheirStartPosition" end time: Oct 06 00:43 India Standard Time
+"Lexer.TokensRecordTheirStartPosition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/101 Testing: LexerErrors.LoneDotIsInvalid
+93/101 Test: LexerErrors.LoneDotIsInvalid
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.LoneDotIsInvalid" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.LoneDotIsInvalid" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.LoneDotIsInvalid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.LoneDotIsInvalid
+[       OK ] LexerErrors.LoneDotIsInvalid (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.LoneDotIsInvalid" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.LoneDotIsInvalid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/101 Testing: LexerErrors.NonAsciiByteIsReportedAsHex
+94/101 Test: LexerErrors.NonAsciiByteIsReportedAsHex
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.NonAsciiByteIsReportedAsHex" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.NonAsciiByteIsReportedAsHex" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.NonAsciiByteIsReportedAsHex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.NonAsciiByteIsReportedAsHex
+[       OK ] LexerErrors.NonAsciiByteIsReportedAsHex (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.NonAsciiByteIsReportedAsHex" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.NonAsciiByteIsReportedAsHex" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/101 Testing: LexerErrors.ErrorMessageUsesOneBasedColumn
+95/101 Test: LexerErrors.ErrorMessageUsesOneBasedColumn
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.ErrorMessageUsesOneBasedColumn" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.ErrorMessageUsesOneBasedColumn" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.ErrorMessageUsesOneBasedColumn
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.ErrorMessageUsesOneBasedColumn
+[       OK ] LexerErrors.ErrorMessageUsesOneBasedColumn (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.ErrorMessageUsesOneBasedColumn" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.ErrorMessageUsesOneBasedColumn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/101 Testing: LexerErrors.LexErrorIsAnExpressionError
+96/101 Test: LexerErrors.LexErrorIsAnExpressionError
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.LexErrorIsAnExpressionError" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.LexErrorIsAnExpressionError" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.LexErrorIsAnExpressionError
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.LexErrorIsAnExpressionError
+[       OK ] LexerErrors.LexErrorIsAnExpressionError (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.LexErrorIsAnExpressionError" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.LexErrorIsAnExpressionError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/101 Testing: LexerErrors.MalformedNumbers
+97/101 Test: LexerErrors.MalformedNumbers
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.MalformedNumbers" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.MalformedNumbers" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.MalformedNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.MalformedNumbers
+[       OK ] LexerErrors.MalformedNumbers (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.MalformedNumbers" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.MalformedNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/101 Testing: LexerErrors.NumberOutOfRange
+98/101 Test: LexerErrors.NumberOutOfRange
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.NumberOutOfRange" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.NumberOutOfRange" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.NumberOutOfRange
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.NumberOutOfRange
+[       OK ] LexerErrors.NumberOutOfRange (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.10 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.NumberOutOfRange" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.NumberOutOfRange" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/101 Testing: Smoke.VersionIsNotEmpty
+99/101 Test: Smoke.VersionIsNotEmpty
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Smoke.VersionIsNotEmpty" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Smoke.VersionIsNotEmpty" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Smoke.VersionIsNotEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Smoke
+[ RUN      ] Smoke.VersionIsNotEmpty
+[       OK ] Smoke.VersionIsNotEmpty (0 ms)
+[----------] 1 test from Smoke (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"Smoke.VersionIsNotEmpty" end time: Oct 06 00:43 India Standard Time
+"Smoke.VersionIsNotEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/101 Testing: Smoke.VersionHasMajorMinorPatchForm
+100/101 Test: Smoke.VersionHasMajorMinorPatchForm
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=Smoke.VersionHasMajorMinorPatchForm" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"Smoke.VersionHasMajorMinorPatchForm" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Smoke.VersionHasMajorMinorPatchForm
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Smoke
+[ RUN      ] Smoke.VersionHasMajorMinorPatchForm
+[       OK ] Smoke.VersionHasMajorMinorPatchForm (0 ms)
+[----------] 1 test from Smoke (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"Smoke.VersionHasMajorMinorPatchForm" end time: Oct 06 00:43 India Standard Time
+"Smoke.VersionHasMajorMinorPatchForm" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/101 Testing: e2e_tests
+101/101 Test: e2e_tests
+Command: "C:/Program Files/Python313/python.exe" "D:/Programming/New C++ Project/expression-engine/tests/run_e2e_tests.py" "D:/Programming/New C++ Project/expression-engine/build_clean/app/expression_engine.exe"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"e2e_tests" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Passed 6/6 E2E tests.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"e2e_tests" end time: Oct 06 00:43 India Standard Time
+"e2e_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/101 Testing: LexerErrors.InvalidCharacter
+92/101 Test: LexerErrors.InvalidCharacter
+Command: "C:/msys64/mingw64/bin/cmake.exe" "-D" "TEST_EXECUTABLE=D:/Programming/New C++ Project/expression-engine/build_clean/tests/expression_tests.exe" "-D" "TEST_EXECUTOR=" "-D" "TEST_FILTER=LexerErrors.InvalidCharacter" "-D" "TEST_XML_OUTPUT=" "-D" "TEST_EXTRA_ARGS=" "-P" "C:/msys64/mingw64/share/cmake/Modules/GoogleTest/LaunchTest.cmake"
+Directory: D:/Programming/New C++ Project/expression-engine/build_clean/tests
+"LexerErrors.InvalidCharacter" start time: Oct 06 00:43 India Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:/Programming/New C++ Project/expression-engine/build_clean/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = LexerErrors.InvalidCharacter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LexerErrors
+[ RUN      ] LexerErrors.InvalidCharacter
+[       OK ] LexerErrors.InvalidCharacter (0 ms)
+[----------] 1 test from LexerErrors (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.23 sec
+----------------------------------------------------------
+Test Passed.
+"LexerErrors.InvalidCharacter" end time: Oct 06 00:43 India Standard Time
+"LexerErrors.InvalidCharacter" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 06 00:43 India Standard Time
